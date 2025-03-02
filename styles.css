@@ -1,2 +1,9 @@
 
-/* Your CSS Code here. */
+.holder {
+    display: flex;
+    flex-wrap: wrap; /* Ensures new items go to the next row */
+    justify-content: space-evenly; /* Evenly spaces items in a row */
+    width: 220px; /* Adjusted to fit items with spacing */
+    background-color: lightgray;
+    gap: 10px; /* Adds spacing between items */
+}
